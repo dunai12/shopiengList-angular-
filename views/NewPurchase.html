@@ -1,0 +1,23 @@
+<div class="container" ng-controller="NewPurchaseViewController">
+    <div class="row">
+        <div class="col-xs-12">
+            <form name="expenseForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" ng-model="purchase.description" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" ng-model="purchase.amount" required>
+                </div>
+                <div class="form-group">
+                    <input type="date" class="form-control"  ng-model="purchase.date" required>
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success btn-lg btn-block" ng-click="expenseForm.$valid && save()"><span class="glyphicon glyphicon-ok"></span> <span>Save</span></button>
+                </div>
+                <div class="form-group">
+                    <a href="#/" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-remove"></span> <span>Cancel</span></a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

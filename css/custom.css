@@ -1,0 +1,21 @@
+img[alt="brand"]{
+    margin-top: -15.6px;
+    display: inline-block;
+}
+.navbar-brand > span{
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+.list-group-item{
+    overflow: auto;
+}
+.list-group-item > span{
+    font-size: 20px;
+    vertical-align: middle;
+}
+.btn-primary{
+    margin-right: 5px;
+}
+.button-row{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,6 @@
+<li class="list-group-item text-center" ng-repeat="item in ShoppingList">
+    <span class="pull-left">{{item.amount | currency}}</span>
+    <span> {{item.description}}</span>
+    <button type="button" class="btn btn-danger pull-right bth-separation-left" ng-click="remove(item.id)"><span class="glyphicon glyphicon-trash"> </span></button>
+    <a href="#ShoppingList/edit/:{{item.id}}" type="button" class="btn btn-primary pull-right bth-s"><span class="glyphicon glyphicon-pencil"> </span></a>
+</li>
